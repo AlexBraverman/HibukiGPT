@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import openai
 
 app = Flask(__name__)
-API_KEY = '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'
+API_KEY = ''
 openai.api_key=API_KEY
 messages = []
 system_message = "answer questions"
